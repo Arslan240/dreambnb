@@ -14,5 +14,10 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
+
+// tailwind scrollbar article
+// https://design2tailwind.com/blog/tailwindcss-hide-scrollbar/
