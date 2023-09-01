@@ -65,7 +65,7 @@ const Input: React.FC<Props> = ({
             translate-y-1.5
             ${formatPrice ? 'left-9' : 'left-4'}
             peer-placeholder-shown:scale-100
-            peer-focus:-translate-y-3
+            peer-focus:-translate-y-[10px]
             peer-focus:scale-75
             peer-focus:bg-white
             ${errors[id] ? 'text-rose-500' : 'text-zinc-400'}
